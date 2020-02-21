@@ -7,7 +7,6 @@
 }
 
 html,body{
-    height: 100;
     font-size: 18px;
 }
 
@@ -17,13 +16,17 @@ header img {
 }
 
 .banner {
-    padding-top: 230px;
-    padding-bottom: 250px;
+    /* padding-top: 230px;
+    padding-bottom: 250px; */
     background-image: url(../img/banner.jpg);
     width: 100%;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h2, p {
@@ -198,21 +201,27 @@ h1, h2, p {
     .schedule {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
-
 
 footer {
     background-color: #343a40;
 }
 
 footer .container {
-    padding-top: 130px;
+    padding-top: 150px;
     padding-bottom: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer a {
+    text-align: center;
+    font-size: 18px;
 }
 
 footer h1 {
